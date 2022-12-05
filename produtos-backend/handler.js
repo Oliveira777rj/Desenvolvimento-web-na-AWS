@@ -14,7 +14,7 @@ app.get('/listar-produtos', async (req, res, next) => {
 
     host:'database-1.cf4nahkon5f9.us-east-1.rds.amazonaws.com',
     user:'admin',
-    password:'Desenhos201&',
+    password:'.',
     port:'3306',
     database:'productsdb'
   })
@@ -31,7 +31,7 @@ app.get('/listar-categorias', async (req, res, next) => {
 
     host:'database-1.cf4nahkon5f9.us-east-1.rds.amazonaws.com',
     user:'admin',
-    password:'Desenhos201&',
+    password:'.&',
     port:'3306',
     database:'productsdb'
   })
@@ -49,7 +49,7 @@ app.post('/cadastro-produto', async function(req, res, next) {
 
     host:'database-1.cf4nahkon5f9.us-east-1.rds.amazonaws.com',
     user:'admin',
-    password:'Desenhos201&',
+    password:'.&',
     port:'3306',
     database:'productsdb'
   })
@@ -66,7 +66,7 @@ app.post('/cadastro-categoria', async function(req, res, next) {
 
     host:'database-1.cf4nahkon5f9.us-east-1.rds.amazonaws.com',
     user:'admin',
-    password:'Desenhos201&',
+    password:'.&',
     port:'3306',
     database:'productsdb'
   })
