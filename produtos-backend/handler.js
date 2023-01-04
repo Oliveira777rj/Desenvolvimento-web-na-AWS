@@ -12,7 +12,7 @@ app.get('/listar-produtos', async (req, res, next) => {
 
   const connection = await mysql.connection({
 
-    host:'database-1.us-east-1.rds.amazonaws.com',
+    host:'databaserds.amazonaws.com',
     user:'admin',
     password:'.',
     port:'3306',
@@ -29,7 +29,7 @@ app.get('/listar-categorias', async (req, res, next) => {
 
   const connection = await mysql.connection({
 
-    host:'database-1.cf4nahkon5f9.us-east-1.rds.amazonaws.com',
+    host:'rds.amazonaws.com',
     user:'admin',
     password:'.&',
     port:'3306',
@@ -47,7 +47,7 @@ app.post('/cadastro-produto', async function(req, res, next) {
 
   const connection = await mysql.connection({
 
-    host:'database-1.4nah5f9.us-east-1.rds.amazonaws.com',
+    host:'database.rds.amazonaws.com',
     user:'admin',
     password:'.&',
     port:'3306',
@@ -64,7 +64,7 @@ app.post('/cadastro-categoria', async function(req, res, next) {
 
   const connection = await mysql.connection({
 
-    host:'database-1.cf4nahkon5f9.us-east-1.rds.amazonaws.com',
+    host:'database.rds.amazonaws.com',
     user:'admin',
     password:'.&',
     port:'3306',
