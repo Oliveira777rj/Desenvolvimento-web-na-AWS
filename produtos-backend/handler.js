@@ -47,7 +47,7 @@ app.post('/cadastro-produto', async function(req, res, next) {
 
   const connection = await mysql.connection({
 
-    host:'database-1.cf4nahkon5f9.us-east-1.rds.amazonaws.com',
+    host:'database-1.4nah5f9.us-east-1.rds.amazonaws.com',
     user:'admin',
     password:'.&',
     port:'3306',
